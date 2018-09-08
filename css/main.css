@@ -405,6 +405,20 @@ a.icon-block span {
 .grid-skill { width: 20%; margin-top: 15px;  background-color: #fff; padding: 15px; color:  rgba(0, 103, 91, 1); font-family: "Raleway", sans-serif;}
 .grid-skill--width2 { width: 50%; }
 
+.grid-experience { width: 25%; height: 150px; margin-top: 15px;  background-color: #fff; padding: 15px; color:  rgba(0, 103, 91, 1); font-family: "Raleway", sans-serif;}
+
+footer {
+    height: 100px;
+    background-color: rgb(82, 199, 184);
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    padding: 15px;
+}
+
 @media only screen and (max-width: 968px) {
     header h1 {
         width: 85%;
@@ -435,6 +449,9 @@ a.icon-block span {
     .card {
         width: calc(100% - 50px);
     }
+
+    .grid-skill { width: 35%;}
+    .grid-experience { width: 90%; }
 }
 
 

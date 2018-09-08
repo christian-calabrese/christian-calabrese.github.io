@@ -98,11 +98,15 @@
     </div>
     
     <div class = "section" id = "experience">
-        <h2 class = "multilang" id = "experienceheader">Esperienza</h2>
+        <h2 class = "multilang" id = "expheader">Esperienza</h2>
         <div class = "contentwrapper">
-            <div class="grid-experience">
-                
-              </div>
+            <div class="grid-experiences">
+              <div class = "grid-experience">
+                <h3>Garmon Chemicals</h3>
+                <p class = "multilang" id = "ittech">Tecnico Informatico</p>
+                <p class = "multilang" id = "datagarmon">Giugno 2015 - Settembre 2015</p>
+              </div>    
+            </div>
         </div>
     </div>
     <div class = "section" id = "portfolio">
@@ -111,6 +115,8 @@
     <div class = "section" id = "contact">
 
     </div>
+
+    <footer><h4>Coded and Designed by Christian Calabrese.</h4></footer>
   
 
 <script>
@@ -128,6 +134,15 @@ var elem = document.querySelector('.grid-skills');
 var msnry = new Masonry( elem, {
   // options
   itemSelector: '.grid-skill',
+  percentPosition: true,
+  gutter: 10,
+
+});
+
+var elem = document.querySelector('.grid-experiences');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.grid-experience',
   percentPosition: true,
   gutter: 10,
 
