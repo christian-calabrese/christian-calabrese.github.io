@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <title>Christian Calabrese</title>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script type="text/javascript" src="js/vendor/multilang/Rjs/R.js"></script>
+  <script type="text/javascript" src="js/vendor/multilang/tr/multilang.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <div id="wrapper">
+    <nav id = "topnav">
+      <ul>
+        <li><a href = "#education"><i class="fas fa-graduation-cap icon-block"></i><span class = "multilang" id = "educationstr">Formazione</span></a></li>
+        <li><a href = "#experience"><i class="fas fa-briefcase icon-block"></i><span class = "multilang" id = "experiencestr">Esperienza</span></a></li>
+        <li><a href = "#portfolio"><i class="fas fa-code icon-block"></i><span class = "multilang" id = "portfoliostr">Portfolio</span></a></li>
+        <li><a href = "#contact"><i class="fas fa-envelope icon-block"></i><span class = "multilang" id = "contactstr">Contattami</span></a></li>
+        <li><select id="selectLanguage" onChange="selectedLanguageChanged();"></select></li>
+
+      </ul>
+    </nav>
+    <header>
+      <img id = "profilepic" src = "img/profile.jpg" alt = "My profile picture">
+      <h1 id = "title" class = "ml2">Christian Calabrese</h1>
+      <hr>
+      <h3 class = "multilang" id = "subtitle">Dottore in Ingegneria Informatica</h3>
+    </header>
+  </div>
+
+    <div class = "section" id = "education">
+      <h2 class = "multilang" id = "educationheader">Educazione</h2>
+      <div class = "contentwrapper">
+      <div class = "scrolling-wrapper">
+          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "unipvmaster">Laurea magistrale in Computer Engineering</h4><progress max = "100" value = "60"></progress></div><img src = "img/unipv.png"></div>
+          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "unibobachelor">Laurea triennale in Ingegneria e Scienze informatiche</h4><progress max = "100" value = "100"></progress></div><img src = "img/unibo.png"></div>
+          <div class="card"><div class = "card-title"><h4>Card</h4><progress max = "100" value = "80"></progress></div><img src = "img/cap.svg"></div>
+          <div class="card"><div class = "card-title"><h4>Card</h4><progress max = "100" value = "80"></progress></div><img src = "img/cap.svg"></div>
+          <div class="card"><div class = "card-title"><h4>Card</h4><progress max = "100" value = "80"></progress></div><img src = "img/cap.svg"></div>
+          <div class="card"><div class = "card-title"><h4>Card</h4><progress max = "100" value = "80"></progress></div><img src = "img/cap.svg"></div>
+          <div class="card"><div class = "card-title"><h4>Card</h4><progress max = "100" value = "80"></progress></div><img src = "img/cap.svg"></div>
+          <div class="card"><div class = "card-title"><h4>Card</h4><progress max = "100" value = "80"></progress></div><img src = "img/cap.svg"></div>
+      </div>
+    </div>
+    </div>
+    <div class = "section" id = "experience">
+
+    </div>
+    <div class = "section" id = "portfolio">
+
+    </div>
+    <div class = "section" id = "contact">
+
+    </div>
+  
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+</script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
