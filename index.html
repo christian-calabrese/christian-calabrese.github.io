@@ -31,6 +31,7 @@
   <script type="text/javascript" src="js/vendor/multilang/Rjs/R.js"></script>
   <script type="text/javascript" src="js/vendor/multilang/tr/multilang.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="js/vendor/masonry.pkgd.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
@@ -70,11 +71,39 @@
     </div>
 
     <div class = "section" id = "skills">
-
+      <h2 class = "multilang" id = "skillsheader">Competenze</h2>
+      <div class = "contentwrapper">
+          <div class="grid-skills">
+              <div class="grid-skill multilang" id = "netmanager">Amministrazione delle reti</div>
+              <div class="grid-skill">CSS</div>
+              <div class="grid-skill">JavaScript</div>
+              <div class="grid-skill">JQuery</div>
+              <div class="grid-skill">HTML</div>
+              <div class="grid-skill">SQL</div>
+              <div class="grid-skill">PHP</div>
+              <div class="grid-skill">Prestashop</div>
+              <div class="grid-skill">Wordpress</div>
+              <div class="grid-skill">Joomla</div>
+              <div class="grid-skill">C</div>
+              <div class="grid-skill">Java</div>
+              <div class="grid-skill">C#</div>
+              <div class="grid-skill">Design Pattern</div>
+              <div class="grid-skill">OpenMP Multithreading</div>
+              <div class="grid-skill">LAMP Web Servers</div>
+              <div class="grid-skill">Cordova Mobile Apps</div>
+              <div class="grid-skill multilang" id = "androiddev">Sviluppo App Android</div>
+              <div class="grid-skill multilang" id = "infsec">Sicurezza Informatica</div>
+            </div>
+      </div>
     </div>
     
     <div class = "section" id = "experience">
-
+        <h2 class = "multilang" id = "experienceheader">Esperienza</h2>
+        <div class = "contentwrapper">
+            <div class="grid-experience">
+                
+              </div>
+        </div>
     </div>
     <div class = "section" id = "portfolio">
 
@@ -93,6 +122,15 @@
           behavior: 'smooth'
       });
   });
+});
+
+var elem = document.querySelector('.grid-skills');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.grid-skill',
+  percentPosition: true,
+  gutter: 10,
+
 });
 </script>
 
