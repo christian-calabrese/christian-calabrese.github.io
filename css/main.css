@@ -345,9 +345,13 @@ a.icon-block span {
 .card h4 {
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: rgba(0, 103, 91, 1);
+    height: 60%;
 }
 
 .card progress[value] {
+    height: 20%;
     /* Reset the default appearance */
     -webkit-appearance: none;
      appearance: none;
@@ -365,7 +369,6 @@ a.icon-block span {
     width: 200px;
     height: 200px;
     margin-left: 50%;
-    margin-right: 50%;
     transform: translateX(-50%);
     margin-top: 4%;
 }
