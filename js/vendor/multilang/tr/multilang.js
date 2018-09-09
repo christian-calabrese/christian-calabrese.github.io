@@ -65,6 +65,7 @@ if( asfEnable && loadCustomjs ) loadjsfile( langdirectory + 'custom.js' );
 function getLocalLanguage() {
   if( localStorage.getItem('lang') != null )
     defaultlang = localStorage.getItem('lang');
+    document.getElementById('languagecaptcha').setAttribute('value', defaultlang.substring(0,2));
 }
 
 /* 
@@ -76,6 +77,7 @@ function getLocalLanguage() {
  */
 function initLanguageOptions() {
   var select = document.getElementById( langSelectId );
+
   if( select != null ) {
     var cnt = 0;
     for( var language of langfiles ) {
@@ -121,6 +123,7 @@ function selectedLanguageChanged() {
   if( select != null ) {
     defaultlang = select.options[select.selectedIndex].value;
     localStorage.setItem('lang', defaultlang);
+    document.getElementById('languagecaptcha').setAttribute('value', defaultlang.substring(0,2));
     updateLanguage();
   }
 }

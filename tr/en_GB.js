@@ -29,6 +29,9 @@ R.registerLocale('en-GB',
   'gesttitle': "Dev. of a web-based management software for the textile sector",
   'gestfeatures': "<li>Warehouse management</li><li>Customer and Products registry</li><li>Creation and management of orders</li><li>Real-time summary of the manufacturing process</li>",
   'cmstitle': "Management and development of CMS based websites",
-  'androidapptitle': "Development and publication of a non-native Android app",
   'androidappsubtitle': "By the use of the Cordova framework",
+  'androidapptitle': "Development and publication of a non-native Android app",
+  'message': "Message",
+  'subbutton': "<input type='submit' value='Send'>",
+
 });
