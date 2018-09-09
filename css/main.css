@@ -589,6 +589,10 @@ footer h4 {
         width: 90%;
         margin: auto;
     }
+
+    #social {
+        margin-left: 20%;
+    }
 }
 
 
