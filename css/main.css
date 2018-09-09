@@ -157,6 +157,20 @@ header {
     background-size: 10%;
 }
 
+#portfolio {
+    background-color: rgba(82, 199, 184, 1);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    background-size: 10%;
+}
+
+#contact {
+    background-color: rgba(0, 103, 91, 1);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    background-size: 10%;
+}
+
 header img {
     position: absolute;
     width: 200px;
@@ -379,12 +393,12 @@ a.icon-block span {
 }
 
 
-  progress:after {
+progress:after {
     content: attr(value)'%';
     font-family: 'Raleway', sans-serif;
   }
 
-  #education .contentwrapper {
+#education .contentwrapper {
     background-color: rgba(0, 103, 91, 1);
     padding: 20px;
     border-radius: 2px;
@@ -402,21 +416,39 @@ a.icon-block span {
     border-radius: 2px;
 }
 
+#portfolio .contentwrapper {
+    background-color: rgb(82, 199, 184);
+    padding: 20px;
+    border-radius: 2px;
+}
+
+#contact .contentwrapper {
+    background-color: rgba(0, 103, 91, 1);
+    padding: 20px;
+    border-radius: 2px;
+}
+
 .grid-skill { width: 20%; margin-top: 15px;  background-color: #fff; padding: 15px; color:  rgba(0, 103, 91, 1); font-family: "Raleway", sans-serif;}
 .grid-skill--width2 { width: 50%; }
 
 .grid-experience { width: 25%; height: 150px; margin-top: 15px;  background-color: #fff; padding: 15px; color:  rgba(0, 103, 91, 1); font-family: "Raleway", sans-serif;}
 
+.grid-project {margin-top: 15px; max-width: 40%;  background-color: #fff; padding: 20px; color: rgba(0, 103, 91, 1); font-family: "Raleway", sans-serif;}
+
+
 footer {
     height: 100px;
     background-color: rgb(82, 199, 184);
+    border-top: 2px solid #fff;
 }
 
 footer h4 {
+    float:right;
     color: #fff;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     padding: 15px;
+    margin: 0;
 }
 
 @media only screen and (max-width: 968px) {
@@ -452,6 +484,7 @@ footer h4 {
 
     .grid-skill { width: 35%;}
     .grid-experience { width: 90%; }
+    .grid-project { max-width: 90%; margin-top: 15px; height: auto;}
 }
 
 

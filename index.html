@@ -102,17 +102,51 @@
             <div class="grid-experiences">
               <div class = "grid-experience">
                 <h3>Garmon Chemicals</h3>
-                <p class = "multilang" id = "ittech">Tecnico Informatico</p>
+                <p class = "multilang" id = "ittech">Tecnico Informatico - Tirocinio universitario</p>
                 <p class = "multilang" id = "datagarmon">Giugno 2015 - Settembre 2015</p>
               </div>    
             </div>
         </div>
     </div>
     <div class = "section" id = "portfolio">
+        <h2 class = "multilang" id = "portfheader">Portfolio</h2>
+        <div class = "contentwrapper">
+            <div class="grid-projects">
+                <div class = "grid-project">
+                  <h3 class = "multilang" id = "gesttitle">Sviluppo di un gestionale web-based</h3>
+                  <p><ul class = "multilang" id = "gestfeatures">
+                      <li>Gestione magazzini</li>
+                      <li>Anagrafica clienti e prodotti</li>
+                      <li>Creazione e gestione ordini</li>
+                      <li>Prospetto avanzamento della lavorazione real-time</li>                    
+                  </ul></p>
+                </div>    
+              </div>
 
+              <div class="grid-projects">
+                  <div class = "grid-project">
+                    <h3 class = "multilang" id = "cmstitle">Gestione di diversi siti web basati su CMS</h3>
+                    <p><ul>
+                        <li>Wordpress</li>
+                        <li>Prestashop</li>
+                        <li>Joomla</li>
+                    </ul></p>
+                  </div>    
+                </div>
+
+                <div class="grid-projects">
+                    <div class = "grid-project">
+                      <h3 class = "multilang" id = "androidapptitle">Sviluppo e pubblicazione applicazione Android non nativa</h3>
+                      <p class = "multilang" id = "androidappsubtitle">Tramite l'utilizzo del framework Cordova</p>
+                    </div>    
+                  </div>
+        </div>
     </div>
     <div class = "section" id = "contact">
+        <h2 class = "multilang" id = "contheader">Contattami</h2>
+        <div class = "contentwrapper">
 
+        </div>
     </div>
 
     <footer><h4>Coded and Designed by Christian Calabrese.</h4></footer>
@@ -145,6 +179,16 @@ var msnry = new Masonry( elem, {
   percentPosition: true,
   gutter: 10,
 
+});
+
+var elem = document.querySelector('.grid-projects');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.grid-project',
+  percentPosition: true,
+  columnWidth: 40,
+  gutter: 0,
+  
 });
 </script>
 
