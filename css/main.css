@@ -497,7 +497,9 @@ progress:after {
 }
 
 #social {
-    margin-left: 45%;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
 }
 
 #social a {
@@ -506,9 +508,13 @@ progress:after {
     color: #fff;
     width: 50px;
     height: 50px;
-    transition: .5s;
+    transition: all .6s ease;
     text-align: center;
     margin-right: 15px;
+}
+
+#social a:last-child {
+    margin-right: 0;
 }
 
 #social a:hover {
@@ -591,8 +597,18 @@ footer h4 {
     }
 
     #social {
+        width: 100%;
         margin-top: 8%;
-        margin-left: 20%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #social a {
+        padding: 12px;
+    }
+
+    #social a:last-child{
+        margin-right: 0;
     }
 }
 
