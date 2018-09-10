@@ -32,6 +32,7 @@ R.registerLocale('en-GB',
   'androidappsubtitle': "By the use of the Cordova framework",
   'androidapptitle': "Development and publication of a non-native Android app",
   'message': "Message",
+  'accessibility': "Accessibility",
   'subbutton': "<input type='submit' value='Send'>",
 
 });
