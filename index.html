@@ -144,9 +144,9 @@
         <h2 class = "multilang" id = "contheader">Contattami</h2>
         <div class = "contentwrapper">
             <form action="https://formspree.io/christian.calabrese@outlook.com" id = "contactform" method="POST">
-            <label for = "_replyto">E-Mail</label><input type="email" name="_replyto">
+            <label for = "_replyto">E-Mail</label><input type="email" name="_replyto" required>
             <label for = "message" class = "multilang" id = "message">Messaggio</label><textarea rows = "5" name = "message"></textarea>
-            <input type="hidden" id = "languagecaptcha" name="_language" value="" />
+            <input type="hidden" id = "languagecaptcha" name="_language" value="" required/>
             <input type="text" name="_gotcha" style="display:none" />
             <span class = "multilang" id = "subbutton"><input type="submit" value="Invia"></span>
         </form>
