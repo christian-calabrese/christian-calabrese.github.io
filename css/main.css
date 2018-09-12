@@ -447,12 +447,12 @@ progress:after {
     border-radius: 2px;
 }
 
-.grid-skill { width: 20%; margin-top: 15px;  background-color: #fff; padding: 15px; color:  rgba(0, 103, 91, 1); font-family: "Raleway", sans-serif;}
+.grid-skill { width: 20%; margin-top: 15px;  background-color: #fff; padding: 15px; color:  #3b7732; font-family: "Raleway", sans-serif;}
 .grid-skill--width2 { width: 50%; }
 
-.grid-experience { width: 25%; height: 150px; margin-top: 15px;  background-color: #fff; padding: 15px; color:  rgba(0, 103, 91, 1); font-family: "Raleway", sans-serif;}
+.grid-experience { width: 25%; height: 150px; margin-top: 15px;  background-color: #fff; padding: 15px; color:  #a8651a; font-family: "Raleway", sans-serif;}
 
-.grid-project {margin-bottom: 15px; width: 300px;  background-color: #fff; padding: 20px; color: rgba(0, 103, 91, 1); font-family: "Raleway", sans-serif;}
+.grid-project {margin-bottom: 15px; width: 300px;  background-color: #fff; padding: 20px; color: #a32030; font-family: "Raleway", sans-serif;}
 
 #contactform {
     width: 60%;
@@ -468,7 +468,7 @@ progress:after {
 #contactform input[type="submit"] {
     padding: .5rem 1rem;
     color: #fff;
-    background-color: rgba(82, 199, 184, 1);
+    background-color: #785bff;
     transition: .5s;
     cursor: pointer;
     margin: 1rem 0 .5rem;
@@ -477,7 +477,7 @@ progress:after {
 }
 
 #contactform input[type="submit"]:hover {
-    background-color: rgba(82, 199, 184, .5);
+    background-color: #522dff;
     transform: scale(1.05);
 }
 
