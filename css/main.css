@@ -137,35 +137,35 @@ header {
 }
 
 #education {
-    background-color: rgba(0, 103, 91, 1);
+    background-color: #089D93;
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
 }
 
 #skills {
-    background-color: rgba(82, 199, 184, 1);
+    background-color: #98D090;
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
 }
 
 #experience {
-    background-color: rgba(0, 103, 91, 1);
+    background-color: #E9993F;
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
 }
 
 #portfolio {
-    background-color: rgba(82, 199, 184, 1);
+    background-color: #DE3449;
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
 }
 
 #contact {
-    background-color: rgba(0, 103, 91, 1);
+    background-color: #917bf8;
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
@@ -222,7 +222,7 @@ header hr {
     margin-right: auto;
     border-style: inset;
     border: 0;
-    border-top: 3px solid #b2ebf2;    
+    border-top: 3px solid #b2ebf2;
     width: 50%;
 }
 
@@ -258,8 +258,8 @@ nav ul li i {
 
 nav ul li a {
     color: #fff;
-    text-decoration: none;  
-    transition: color 0.4s ease-in-out; 
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
 }
 
 nav ul li a:hover {
@@ -281,7 +281,7 @@ label {
     font-size: 18px;
     background-color: transparent;
     color: #fff;
-    transition: color 0.4s ease-in-out; 
+    transition: color 0.4s ease-in-out;
     cursor: pointer;
 }
 
@@ -322,11 +322,11 @@ a.icon-block span {
  .scrolling-wrapper::-webkit-scrollbar {
      width: 12px;
  }
- 
+
  .scrolling-wrapper::-webkit-scrollbar-track {
      border-radius: 10px;
  }
- 
+
  .scrolling-wrapper::-webkit-scrollbar-thumb {
      border-radius: 10px;
      background-color: #fff;
@@ -344,7 +344,7 @@ a.icon-block span {
     margin-right: 10px;
     margin-bottom: 10px;
     height: 450px;
-    
+
 }
 
 .card:last-child {
@@ -399,19 +399,19 @@ progress:after {
   }
 
 #education .contentwrapper {
-    background-color: rgba(0, 103, 91, 1);
+    background-color: #089D93;
     padding: 20px;
     border-radius: 2px;
 }
 
 #skills .contentwrapper {
-    background-color: rgb(82, 199, 184);
+    background-color: #98D090;
     padding: 20px;
     border-radius: 2px;
 }
 
 #experience .contentwrapper {
-    background-color: rgba(0, 103, 91, 1);
+    background-color: #E9993F;
     padding: 20px;
     border-radius: 2px;
 }
@@ -436,13 +436,13 @@ progress:after {
 }
 
 #portfolio .contentwrapper {
-    background-color: rgb(82, 199, 184);
+    background-color: #DE3449;
     padding: 20px;
     border-radius: 2px;
 }
 
 #contact .contentwrapper {
-    background-color: rgba(0, 103, 91, 1);
+    background-color: #917bf8;
     padding: 20px;
     border-radius: 2px;
 }
@@ -466,7 +466,7 @@ progress:after {
 }
 
 #contactform input[type="submit"] {
-    padding: .5rem 1rem; 
+    padding: .5rem 1rem;
     color: #fff;
     background-color: rgba(82, 199, 184, 1);
     transition: .5s;
@@ -485,7 +485,7 @@ progress:after {
 #contactform input[type="email"], input[type="text"], textarea {
     padding: 10px;
     width: 100%;
-    font-family: "Raleway", sans-serif;    
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -566,7 +566,7 @@ footer h4 {
     }
 
     header hr {
-        top: 69%; 
+        top: 69%;
         width: 85%;
     }
 
@@ -574,7 +574,7 @@ footer h4 {
         display: block;
         margin-bottom: 0.4em;
     }
-       
+
     #cv {
         display: block;
         margin-top: 0;
@@ -586,7 +586,7 @@ footer h4 {
         width: calc(95% - 50px);
     }
 
-    
+
     .grid-skill { width: 35%;}
     .grid-experience { width: 90%; }
     .grid-project { width: 90%; margin-bottom: 15px; height: auto;}
