@@ -137,35 +137,35 @@ header {
 }
 
 #education {
-    background-color: #089D93;
+    background-color: rgba(0, 103, 91, 1);
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
 }
 
 #skills {
-    background-color: #98D090;
+    background-color: rgba(82, 199, 184, 1);
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
 }
 
 #experience {
-    background-color: #E9993F;
+    background-color: rgba(0, 103, 91, 1);
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
 }
 
 #portfolio {
-    background-color: #DE3449;
+    background-color: rgba(82, 199, 184, 1);
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
 }
 
 #contact {
-    background-color: #5e45d3;
+    background-color: rgba(0, 103, 91, 1);
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: 10%;
@@ -399,19 +399,19 @@ progress:after {
   }
 
 #education .contentwrapper {
-    background-color: #089D93;
+    background-color: rgba(0, 103, 91, 1);
     padding: 20px;
     border-radius: 2px;
 }
 
 #skills .contentwrapper {
-    background-color: #98D090;
+    background-color: rgba(82, 199, 184, 1);
     padding: 20px;
     border-radius: 2px;
 }
 
 #experience .contentwrapper {
-    background-color: #E9993F;
+    background-color: rgba(0, 103, 91, 1);
     padding: 20px;
     border-radius: 2px;
 }
@@ -436,13 +436,13 @@ progress:after {
 }
 
 #portfolio .contentwrapper {
-    background-color: #DE3449;
+    background-color: rgba(82, 199, 184, 1);
     padding: 20px;
     border-radius: 2px;
 }
 
 #contact .contentwrapper {
-    background-color: #5e45d3;
+    background-color: rgba(0, 103, 91, 1);
     padding: 20px;
     border-radius: 2px;
 }
