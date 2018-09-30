@@ -125,6 +125,9 @@ function selectedLanguageChanged() {
     localStorage.setItem('lang', defaultlang);
     document.getElementById('languagecaptcha').setAttribute('value', defaultlang.substring(0,2));
     updateLanguage();
+    msnry1.layout();
+    msnry2.layout();
+    msnry3.layout();
   }
 }
 
