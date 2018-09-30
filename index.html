@@ -75,7 +75,7 @@
       <h2 class = "multilang" id = "skillsheader">Competenze</h2>
       <div class = "contentwrapper">
           <div class="grid-skills">
-              <div class="grid-skill multilang" id = "netmanager">Amministrazione delle reti</div>
+              <div class="grid-skill multilang" id = "netmanager">Amministraz. di reti</div>
               <div class="grid-skill">CSS</div>
               <div class="grid-skill">JavaScript</div>
               <div class="grid-skill">JQuery</div>
@@ -166,7 +166,6 @@
   
 
 <script>
-
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
       e.preventDefault();
@@ -178,7 +177,7 @@
 });
 
 var elem = document.querySelector('.grid-skills');
-var msnry = new Masonry( elem, {
+var msnry1 = new Masonry( elem, {
   // options
   itemSelector: '.grid-skill',
   percentPosition: true,
@@ -187,7 +186,7 @@ var msnry = new Masonry( elem, {
 });
 
 var elem = document.querySelector('.grid-experiences');
-var msnry = new Masonry( elem, {
+var msnry2 = new Masonry( elem, {
   // options
   itemSelector: '.grid-experience',
   percentPosition: true,
@@ -196,15 +195,20 @@ var msnry = new Masonry( elem, {
 });
 
 var elem = document.querySelector('.grid-projects');
-var msnry = new Masonry( elem, {
+var msnry3 = new Masonry( elem, {
   // options
   itemSelector: '.grid-project',
   percentPosition: true,
   gutter: 10,
 
 });
+
+window.addEventListener("load", function(){
+    msnry1.layout();
+    msnry2.layout();
+    msnry3.layout();
+  });
 </script>
 
 </body>
-
 </html>
