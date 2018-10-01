@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="js/vendor/sal.js/sal.css">
 </head>
 
 <body>
@@ -32,6 +32,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="js/vendor/masonry.pkgd.min.js"></script>
   <script src="js/vendor/dragscroll.js"></script>
+  <script src="js/vendor/sal.js/sal.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
@@ -60,13 +61,13 @@
       <h2 class = "multilang" id = "educationheader">Educazione</h2>
       <div class = "contentwrapper">
       <div class = "scrolling-wrapper dragscroll">
-          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "unipvmaster">Laurea magistrale in Computer Engineering</h4><progress max = "100" value = "60"></progress></div><img src = "img/unipv.png" alt = "Logo di Università di Pavia"></div>
-          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "unibobachelor">Laurea triennale in Ingegneria e Scienze informatiche</h4><progress max = "100" value = "100"></progress></div><img src = "img/unibo.png" alt = "Logo di Università di Bologna"></div>
-          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "highschool">Perito Informatico IISS G. Salvemini Alessano</h4><progress max = "100" value = "100"></progress></div><img src = "img/salvemini.jpg" alt = "Logo di IISS G. Salvemini Alessano"></div>
-          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "comptia">Certificazione CompTia Security+</h4><progress max = "100" value = "90"></progress></div><img src = "img/comptia.png" alt = "Logo di CompTia Security Plus"></div>
-          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "efsetc1">Certificazione di Inglese EFset C1 Dublino</h4><progress max = "100" value = "100"></progress></div><img src = "img/efset.png" alt = "Logo di EFSet"></div>
-          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "pet">Certificazione di Inglese PET Cambridge</h4><progress max = "100" value = "100"></progress></div><img src = "img/pet.png" alt = "Logo di Cambridge University"></div>
-          <div class="card"><div class = "card-title"><h4 class = "multilang" id = "gese">Certificazione di Inglese Trinity Gese livello 9</h4><progress max = "100" value = "100"></progress></div><img src = "img/gese.png" alt = "Logo di Trinity University of London"></div>
+          <div class="card card-edu" data-sal="zoom-in"><div class = "card-title"><h4 class = "multilang" id = "unipvmaster">Laurea magistrale in Computer Engineering</h4><progress max = "100" value = "60"></progress></div><img src = "img/unipv.png" alt = "Logo di Università di Pavia"></div>
+          <div class="card card-edu" data-sal="zoom-in"><div class = "card-title"><h4 class = "multilang" id = "unibobachelor">Laurea triennale in Ingegneria e Scienze informatiche</h4><progress max = "100" value = "100"></progress></div><img src = "img/unibo.png" alt = "Logo di Università di Bologna"></div>
+          <div class="card card-edu" data-sal="zoom-in"><div class = "card-title"><h4 class = "multilang" id = "highschool">Perito Informatico IISS G. Salvemini Alessano</h4><progress max = "100" value = "100"></progress></div><img src = "img/salvemini.jpg" alt = "Logo di IISS G. Salvemini Alessano"></div>
+          <div class="card card-edu" data-sal="zoom-in"><div class = "card-title"><h4 class = "multilang" id = "comptia">Certificazione CompTia Security+</h4><progress max = "100" value = "90"></progress></div><img src = "img/comptia.png" alt = "Logo di CompTia Security Plus"></div>
+          <div class="card card-edu" data-sal="zoom-in"><div class = "card-title"><h4 class = "multilang" id = "efsetc1">Certificazione di Inglese EFset C1 Dublino</h4><progress max = "100" value = "100"></progress></div><img src = "img/efset.png" alt = "Logo di EFSet"></div>
+          <div class="card card-edu" data-sal="zoom-in"><div class = "card-title"><h4 class = "multilang" id = "pet">Certificazione di Inglese PET Cambridge</h4><progress max = "100" value = "100"></progress></div><img src = "img/pet.png" alt = "Logo di Cambridge University"></div>
+          <div class="card card-edu" data-sal="zoom-in"><div class = "card-title"><h4 class = "multilang" id = "gese">Certificazione di Inglese Trinity Gese livello 9</h4><progress max = "100" value = "100"></progress></div><img src = "img/gese.png" alt = "Logo di Trinity University of London"></div>
       </div>
     </div>
     </div>
@@ -75,27 +76,27 @@
       <h2 class = "multilang" id = "skillsheader">Competenze</h2>
       <div class = "contentwrapper">
           <div class="grid-skills">
-              <div class="grid-skill multilang" id = "netmanager">Amministraz. di reti</div>
-              <div class="grid-skill">CSS</div>
-              <div class="grid-skill">JavaScript</div>
-              <div class="grid-skill">JQuery</div>
-              <div class="grid-skill">HTML</div>
-              <div class="grid-skill">SQL</div>
-              <div class="grid-skill">PHP</div>
-              <div class="grid-skill">Responsive Design</div>
-              <div class="grid-skill multilang" id = "accessibility">Accessibilità</div>
-              <div class="grid-skill">Prestashop</div>
-              <div class="grid-skill">Wordpress</div>
-              <div class="grid-skill">Joomla</div>
-              <div class="grid-skill">C</div>
-              <div class="grid-skill">Java</div>
-              <div class="grid-skill">C#</div>
-              <div class="grid-skill">Design Pattern</div>
-              <div class="grid-skill">OpenMP Multithreading</div>
-              <div class="grid-skill">LAMP Web Servers</div>
-              <div class="grid-skill">Cordova Mobile Apps</div>
-              <div class="grid-skill multilang" id = "androiddev">Sviluppo App Android</div>
-              <div class="grid-skill multilang" id = "infsec">Sicurezza Informatica</div>
+              <div class="grid-skill multilang" id = "netmanager" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Amministraz. di reti</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">CSS</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">JavaScript</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">JQuery</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">HTML</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">SQL</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">PHP</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Responsive Design</div>
+              <div class="grid-skill multilang" id = "accessibility" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Accessibilità</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Prestashop</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Wordpress</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Joomla</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">C</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Java</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">C#</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Design Pattern</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">OpenMP Multithreading</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">LAMP Web Servers</div>
+              <div class="grid-skill" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Cordova Mobile Apps</div>
+              <div class="grid-skill multilang" id = "androiddev" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Sviluppo App Android</div>
+              <div class="grid-skill multilang" id = "infsec" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">Sicurezza Informatica</div>
             </div>
       </div>
     </div>
@@ -105,7 +106,7 @@
         <a href="attach/CV-CalabreseChristian.pdf" id = "cv" download><i class="fas fa-download"></i> Curriculum Vitae</a>
         <div class = "contentwrapper">
             <div class="grid-experiences">
-              <div class = "grid-experience">
+              <div class = "grid-experience" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">
                 <h3>Garmon Chemicals</h3>
                 <p class = "multilang" id = "ittech">Tecnico Informatico - Tirocinio universitario</p>
                 <p class = "multilang" id = "datagarmon">Giugno 2015 - Settembre 2015</p>
@@ -117,7 +118,7 @@
         <h2 class = "multilang" id = "portfheader">Portfolio</h2>
         <div class = "contentwrapper">
             <div class="grid-projects">
-                <div class = "grid-project">
+                <div class = "grid-project" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">
                   <h3 class = "multilang" id = "gesttitle">Sviluppo di un gestionale web-based</h3>
                   <p><ul class = "multilang" id = "gestfeatures">
                       <li>Gestione magazzini</li>
@@ -127,7 +128,7 @@
                   </ul></p>
                 </div>    
 
-                  <div class = "grid-project">
+                  <div class = "grid-project" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">
                     <h3 class = "multilang" id = "cmstitle">Gestione di diversi siti web basati su CMS</h3>
                     <p><ul>
                         <li>Wordpress</li>
@@ -136,7 +137,7 @@
                     </ul></p>
                   </div>    
 
-                    <div class = "grid-project">
+                    <div class = "grid-project" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-in-out-bounce">
                       <h3 class = "multilang" id = "androidapptitle">Sviluppo e pubblicazione applicazione Android non nativa</h3>
                       <p class = "multilang" id = "androidappsubtitle">Tramite l'utilizzo del framework Cordova</p>
                     </div>    
@@ -147,11 +148,11 @@
         <h2 class = "multilang" id = "contheader">Contattami</h2>
         <div class = "contentwrapper">
             <form action="https://formspree.io/christian.calabrese@outlook.com" id = "contactform" method="POST">
-            <label for = "_replyto">E-Mail</label><input type="email" name="_replyto" required>
-            <label for = "message" class = "multilang" id = "message">Messaggio</label><textarea rows = "5" name = "message"></textarea>
+            <label for = "_replyto" data-sal="slide-up" data-sal-delay = "200">E-Mail</label><input type="email" name="_replyto" data-sal="slide-up" data-sal-delay = "200" required>
+            <label for = "message" class = "multilang" id = "message" data-sal="slide-up" data-sal-delay = "200">Messaggio</label><textarea rows = "5" name = "message" data-sal="slide-up" data-sal-delay = "200"></textarea>
             <input type="hidden" id = "languagecaptcha" name="_language" value="" required/>
             <input type="text" name="_gotcha" style="display:none" />
-            <span class = "multilang" id = "subbutton"><input type="submit" value="Invia"></span>
+            <span class = "multilang" id = "subbutton"><input type="submit" value="Invia" data-sal="slide-up" data-sal-delay = "200"></span>
         </form>
         <br>
           <div id = "social">
@@ -166,7 +167,11 @@
   
 
 <script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  sal({
+  threshold: 0.1,
+  once: false,
+  });
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
       e.preventDefault();
 
