@@ -34,5 +34,6 @@ R.registerLocale('en-GB',
   'message': "Message",
   'accessibility': "Accessibility",
   'subbutton': "<input type='submit' value='Send'>",
+  'nodeprojs': "Development of small web-apps (Based on JS ES6 Front-end and Node.js Back-end)"
 
 });
