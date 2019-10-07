@@ -35,6 +35,6 @@ R.registerLocale('it-IT',
   'accessibility': "Accessibilità",
   'subbutton': "<input type='submit' value='Invia'>",
   'nodeprojs': "Sviluppo di piccole web-app (Front-end JS ES6, Back-end in node)",
-  'pythonprojs': ""
+  'pythonprojs': "Sviluppo di software (Python con Serverless framework su AWS)",
   'telegrambottitle': "Telegram bot per riconoscimento facciale"
 });
