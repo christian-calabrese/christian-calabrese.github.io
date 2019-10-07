@@ -1,5 +1,5 @@
 // English translation
-R.registerLocale('en-GB', 
+R.registerLocale('en-GB',
 {
   'language': "Language",
   'contactstr': "Contact me",
@@ -34,6 +34,8 @@ R.registerLocale('en-GB',
   'message': "Message",
   'accessibility': "Accessibility",
   'subbutton': "<input type='submit' value='Send'>",
-  'nodeprojs': "Development of small web-apps (Based on JS ES6 Front-end and Node.js Back-end)"
+  'nodeprojs': "Development of small web-apps (Based on JS ES6 Front-end and Node.js Back-end)",
+  'pythonprojs': "Development of software with Python and Serverless framework on AWS",
+  'telegrambottitle': "Telegram bot for face recognition"
 
 });
