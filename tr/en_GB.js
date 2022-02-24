@@ -8,7 +8,7 @@ R.registerLocale('en-GB',
   'portfoliostr': "Portfolio",
   'skillsstr': "Skills",
   'experiencestr': "Experience",
-  'subtitle': "I.T. Student and Enthusiast",
+  'subtitle': "AWS Cloud Solutions Architect and Serverless technologies Enthusiast",
   'educationheader': "Education",
   'skillsheader': "Skills",
   'unibobachelor': "Bachelor degree in Computer Science and Engineering",
@@ -36,6 +36,8 @@ R.registerLocale('en-GB',
   'subbutton': "<input type='submit' value='Send'>",
   'nodeprojs': "Development of small web-apps (Based on JS ES6 Front-end and Node.js Back-end)",
   'pythonprojs': "Development of software with Python and Serverless framework on AWS",
-  'telegrambottitle': "Telegram bot for face recognition"
-
+  'telegrambottitle': "Telegram bot for face recognition",
+  'haekswebserver': "Highly available Apache Web Server on AWS EKS",
+  'hawp': "Highly available Wordpress on AWS ECS Fargate",
+  'iacprojects': "Architecting of entire AWS infrastructures and their IaC development with AWS CDK"
 });
